@@ -1,5 +1,4 @@
 import static org.junit.jupiter.api.Assertions.*;
-
 class MainTest {
 
     @org.junit.jupiter.api.Test
@@ -55,6 +54,4 @@ class MainTest {
     void roundNegativeValueToNearestIntegerTwo() {
         assertEquals(-9, Main.roundNegativeValueToNearestInteger(-8.5));
     }
-
-
 }
